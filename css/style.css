@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+.menu{	
+height:75px;
+width:1024px; 
+background-color:#68583b;
+}
+.menu a{
+color:#FFFFFF;
+font-family:Lato;
+font-size:24px;
+}
+
+.content{
+height:500px;
+width:1024px;
+background-color:#dddcdb;
+}
+
+.heading{
+height:75px;
+width:1024px;
+background-color:#68583b;
+}
+
+.bodycopy{
+font-size:22px;
+font-family:Georgia;
+}
