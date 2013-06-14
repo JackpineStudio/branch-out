@@ -1,54 +1,105 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 300px;
+}
+h1{
+	position: absolute;
+	right: -100000px;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	opacity: .5;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
 .menu{	
 height:75px;
-width:1024px; 
 background-color:#68583b;
 }
 .menu a{
-color:#FFFFFF;
-font-family:Lato;
-font-weight: light;
-font-size:24px;
+	text-decoration: none;
+	color:#FFFFFF;
+	font-family:Lato;
+	font-weight: light;
+	font-size:24px;
+	text-align: center;
 }
 
 .content{
-height:500px;
-width:1024px;
-background-color:#dddcdb;
-}
 
+
+}
+.header{
+	background-image: url('../images/cookies.jpg');
+	display: block;
+	height: 300px;
+}
 .heading{
-height:75px;
-width:1024px;
-background-color:#68583b;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	background-color:#68583b;
 }
 
-.heading h1{
-	margin-top: 10px;
-	margin-right: 150px;
-	margin-bottom: 0px;
-	margin-left: 150px;
+.heading h2{
+	padding: 0;
 }
-
+.content{
+	height: auto;
+	background-color:#dddcdb;
+	margin: 0;
+	padding: 0;
+}
 .content p{
-font-size:22px;
-font-family:Georgia;
+	font-size:18px;
+	line-height: 22px;
+	font-family:Georgia;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
 
-	margin-top: 75px;
-	margin-right: 150px;
-	margin-bottom: 75px;
-	margin-left: 150px;
 }
 
-h1 {
-font-size: 36px;
-color:#FFFFFF;
-font-family: Lato;
-font-weight: light;	
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 28px;
+	color:#FFFFFF;
+	font-family: Lato;
+	font-weight: light;	
 }
 
-.social {
-width:512px;
+.social{
+	margin: 0 auto; 
+	display: block;
+}
+
+.header {
+	position: relative;
+}
+
+
+.logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
 }
 
