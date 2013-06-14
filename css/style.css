@@ -8,6 +8,7 @@ background-color:#68583b;
 .menu a{
 color:#FFFFFF;
 font-family:Lato;
+font-weight: light;
 font-size:24px;
 }
 
@@ -23,7 +24,31 @@ width:1024px;
 background-color:#68583b;
 }
 
+.heading h1{
+	margin-top: 10px;
+	margin-right: 150px;
+	margin-bottom: 0px;
+	margin-left: 150px;
+}
+
 .content p{
 font-size:22px;
 font-family:Georgia;
+
+	margin-top: 75px;
+	margin-right: 150px;
+	margin-bottom: 75px;
+	margin-left: 150px;
 }
+
+h1 {
+font-size: 36px;
+color:#FFFFFF;
+font-family: Lato;
+font-weight: light;	
+}
+
+.social {
+width:512px;
+}
+
