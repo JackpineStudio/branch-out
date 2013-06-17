@@ -11,6 +11,10 @@ body{
 }
 .menu ul{
 	height: auto;
+	text-align:center;
+}
+.menu ul li{
+	display:inline;
 }
 h1{
 	position: relative;
@@ -41,7 +45,7 @@ background-color:#68583b;
 	color:#FFFFFF;
 	font-family:Lato;
 	font-weight: light;
-	font-size:24px;
+	font-size:20px;
 	text-align: center;
 }
 
@@ -75,7 +79,14 @@ background-color:#68583b;
 	font-family:Georgia;
 	padding: 10px 10px 10px 10px;
 	margin: 0;
+}
 
+.content a{
+	color:#000000;
+}
+.content ul li{
+	font-size:16px;
+	line-height: 20px;
 }
 
 h2 {
