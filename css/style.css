@@ -119,7 +119,9 @@ background-color:#9aa549;
 	padding: 20px 10% ;
 	margin: 0;
 }
-
+.content img{
+	width: 100%;
+}
 .content a{
 	color:#000000;
 }
@@ -148,4 +150,12 @@ label, input, legend, select, option, textarea{
 }
 fieldset{
 	border: 0;
+}
+@media (min-width: 960px){
+	
+	.wrapper{
+		width: 600px;
+
+	}
+
 }
