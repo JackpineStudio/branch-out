@@ -8,10 +8,7 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 .wrapper{
-<<<<<<< HEAD
-	margin: auto;
-	width: 300px;
-=======
+
 	margin: 0 auto;
 	width: 70%;
 }
@@ -22,26 +19,11 @@ nav{
 .menu{
 	margin: 0;
 	padding: 0;
->>>>>>> 9283410f67f338ba498b6d1fb6aade927fb0e547
 }
-.menu ul{
-	height: auto;
-	text-align:center;
-	margin: 0;
-	padding: 0;
-}
-.menu ul li{
-<<<<<<< HEAD
-	display:inline-block;
-=======
-	display:block;
-	margin: 0;
-	padding: 0;
-}
+
 .header{
 	margin: 0;
 	padding: 0;
->>>>>>> 9283410f67f338ba498b6d1fb6aade927fb0e547
 }
 h1{
 	position: relative;
