@@ -4,9 +4,11 @@
 <link href="css/style.css" rel="stylesheet">
 <meta charset="UTF-8">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
-<meta name="description" content="Branch Out Bakery is a vegan and gluten-free baked goodies bicycle delivery service from Ottawa, Canada.">
-<meta name="keywords"  content="Branch out bakery, branchoutbakery, bicycle, vegetarian, ottawa, gluten-free, vegan, cookies, squares, farmers market, bike, local, baked goods, delicious, food, order, chocolate chip, date square, glebe, trish, ">
+<meta name="description" content="Branch Out Bakery. Delicious vegan &amp; gluten free baked goodies, delivered by bicycle. Based in Ottawa, Canada.">
+<meta name="keywords"  content="Branch out bakery, branchoutbakery, bicycle, vegetarian, ottawa, gluten-free, vegan, cookies, squares, farmers market, bike, local, baked goods, delicious, food, order, chocolate chip, date square, glebe, trish ">
+<link rel="shortcut icon" href="favicon.ico"/>
 <meta name="author" content="Jackpine">
+
 <meta charset="UTF-8">
 
 <title>Branch Out Bakery</title>
@@ -26,8 +28,8 @@
         </div>
     </header>
     <footer>
-    <div class="header" style="background-image: url('images/cookies.jpg');">
-        <h3>Branch out bakery is a vegan &amp; gluten free baked goodies, delivered by bicycle.</h3>
+    <div class="header slide" >
+        <h3 >Delicious vegan &amp; gluten free baked goodies, delivered by bicycle.</h3>
     </div>
     <div class="content">
 
@@ -65,7 +67,7 @@
                             <label for="message" >Message</label>
                             <textarea id="message" name="message" type="text" cols="30" rows="5"></textarea>
 
-                            <input type="submit" value="Request a free quote" name="submit" id="submit" class="button">
+                            <input type="submit" value="Send an order" name="submit" id="submit" class="button" >
                         </fieldset>
                     </form>
                     <?
@@ -97,7 +99,7 @@
                             $msg .= 'Message: ' . $message . BR;
 
                             //send via PHP's mail() function
-                            $mailsent = @mail('taulant.sulko@gmail.com', 'Web Message', $msg, $headers);
+                            $mailsent = @mail('branchoutbakery@gmail.com', 'Web Message', $msg, $headers);
 
                             if ($mailsent) {
                                 echo 'Your message was successfully sent!';

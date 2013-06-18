@@ -37,11 +37,18 @@ h2 {
 	letter-spacing: 2px; 	
 	margin: 0;
 	padding: 12px 0 0;
-	font-size: 20px;
+	font-size: 2em;
 	color:#111;
+}
+h3{
+	color:#fff; 
+	font-size: 1.5em;
+	text-align:center; 
+	padding: 1em 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px; 	
 
 }
-
 a{
 	text-decoration: none;
 }
@@ -76,6 +83,13 @@ background-color:#9aa549;
 .header{
 	display: block;
 	height: 300px;
+
+}
+.slide{
+	background-image: url('../images/cookies.jpg');
+	border: 6px solid #fff;
+/*	-webkit-box-shadow:  0px 0px 40px 5px rgba(255, 255, 255, .5);
+    box-shadow:  0px 0px 40px 5px rgba(255, 255, 255, .5);*/
 }
 .heading{
 	margin: 0;
@@ -127,8 +141,8 @@ label, input, legend, select, option, textarea{
 	width:100%;
 	font-family: 'Lato', sans-serif !important;
 	padding: 5px 0;
-
-
+	margin: 5px 0 15px;
+	text-align: center !important;
 }
 fieldset{
 	border: 0;
@@ -137,7 +151,14 @@ fieldset{
 	
 	.wrapper{
 		width: 600px;
-
+	}
+	h3{
+	color:#fff; 
+	font-size: 2em;
+	text-align:center; 
+	padding: 1.5em 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px; 	
 	}
 
 }
