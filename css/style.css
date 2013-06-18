@@ -3,10 +3,13 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow: auto;
+	background-color: #f2f2f2;
+	background-image: url('../images/branch-out-bakery-header.jpg');
+	font-family: 'Lato', sans-serif;
 }
 .wrapper{
 	margin: 0 auto;
-	width: 300px;
+	width: 70%;
 }
 nav{
 	margin: 0;
@@ -35,6 +38,16 @@ h1{
 	position: relative;
 	left: -100000px;
 	overflow: hidden;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px; 	
+	margin: 0;
+	padding: 12px 0 0;
+	font-size: 20px;
+	color:#111;
 
 }
 
@@ -52,8 +65,10 @@ ul li{
 	list-style: none;
 }
 .menu{	
-height:75px;
-background-color:#68583b;
+height: auto;
+margin: 0;
+padding: 0;
+background-color:#9aa549;
 }
 .menu a{
 	text-decoration: none;
@@ -68,7 +83,6 @@ background-color:#68583b;
 
 }
 .header{
-	background-image: url('../images/branch-out-bakery-header.jpg');
 	display: block;
 	height: 300px;
 }
@@ -76,7 +90,7 @@ background-color:#68583b;
 	margin: 0;
 	padding: 0;
 	height: auto;
-	background-color:#68583b;
+	background-color:#9aa549;
 }
 
 .heading h2{
@@ -84,15 +98,16 @@ background-color:#68583b;
 }
 .content{
 	height: auto;
-	background-color:#dddcdb;
+	background-color:#f1f1f1;
 	margin: 0;
 	padding: 0;
 }
 .content p{
-	font-size:18px;
-	line-height: 22px;
+	font-size:1em;
+	line-height: 2.1em;
 	font-family:Georgia;
-	padding: 10px 10px 10px 10px;
+	text-align: center;
+	padding: 20px 10% ;
 	margin: 0;
 }
 
@@ -104,34 +119,24 @@ background-color:#68583b;
 	line-height: 20px;
 }
 
-h2 {
-	margin: 0;
-	padding: 0;
-	font-size: 28px;
-	color:#FFFFFF;
-	font-family: Lato;
-	font-weight: light;	
-}
+
 
 .social{
-	margin: 0 100px;
-	width: 120px;
-	display: inline-block;
+	margin:33px 0;
+	text-align: center;
 }
-
-.header {
-	position: relative;
-}
-
 
 .logo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 50%;
-    height: 30%;
-    margin: auto;
+	width: 300px;
+	margin: 0 auto;
 }
+label, input, legend, select, option, textarea{
+	width:100%;
+	font-family: 'Lato', sans-serif !important;
+	padding: 5px 0;
 
+
+}
+fieldset{
+	border: 0;
+}
