@@ -6,7 +6,7 @@ body{
 	overflow: auto;
 }
 .wrapper{
-	margin: 0 auto;
+	margin: auto;
 	width: 300px;
 }
 .menu ul{
@@ -14,7 +14,7 @@ body{
 	text-align:center;
 }
 .menu ul li{
-	display:inline;
+	display:inline-block;
 }
 h1{
 	position: relative;
