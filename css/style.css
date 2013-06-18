@@ -133,7 +133,7 @@ label, input, legend, select, option, textarea{
 fieldset{
 	border: 0;
 }
-@media (min-width: 960px){
+@media (min-width: 600px){
 	
 	.wrapper{
 		width: 600px;
