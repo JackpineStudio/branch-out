@@ -30,10 +30,11 @@
     <div class="header slide" >
         <h3 >Delicious vegan &amp; gluten free baked goodies, delivered by bicycle.</h3>
     </div>
-    <div class="content">
+    <div class="content" id="container">
 
         <h2>Order</h2>
-        <p><em>Please fill up the form below to order our baked goods.</em></p>
+        <p><em>Please fill out the form below to order our baked goods.</em></p>
+                
             <form method="post" action="index.php#container">
                         <fieldset>
                             <legend>Contact info</legend>
@@ -100,16 +101,15 @@
                             $mailsent = @mail('branchoutbakery@gmail.com', 'Web Message', $msg, $headers);
                             // $mailsent = @mail('taulant.sulko@gmail.com', 'Web Message', $msg, $headers);
 
-                            if ($mailsent) {
-                                echo 'Your message was successfully sent!';
-                            } else {
-                                echo 'There was an error sending you message, please try again later!';
-                            }
+                            // if ($mailsent) {
+                            //     echo 'Your message was successfully sent!';
+                            // } else {
+                            //     echo 'There was an error sending you message, please try again later!';
+                            // }
                     ?>
   
     </div>  
-    <div class="content" id="container">
-    </div>
+    
        
    
     </footer>
