@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
 <link href="css/style.css" rel="stylesheet">
@@ -71,7 +70,6 @@
                         </fieldset>
                     </form>
                     <?php
-                        } else {
                             define('BR', '<br />');
 
                             $Fname = $_POST['Fname'];
@@ -100,16 +98,18 @@
 
                             //send via PHP's mail() function
                             $mailsent = @mail('branchoutbakery@gmail.com', 'Web Message', $msg, $headers);
+                            // $mailsent = @mail('taulant.sulko@gmail.com', 'Web Message', $msg, $headers);
 
                             if ($mailsent) {
                                 echo 'Your message was successfully sent!';
                             } else {
                                 echo 'There was an error sending you message, please try again later!';
                             }
-                        }
                     ?>
   
     </div>  
+    <div class="content" id="container">
+    </div>
        
    
     </footer>
