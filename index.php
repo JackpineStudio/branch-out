@@ -2,10 +2,11 @@
 <head>
 <link href="css/style.css" rel="stylesheet">
 <meta charset="UTF-8">
+<title>Branch Out Bakery</title>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 <meta name="description" content="Branch Out Bakery. Delicious vegan &amp; gluten free baked goodies, delivered by bicycle. Based in Ottawa, Canada.">
 <meta name="keywords"  content="Branch out bakery, branchoutbakery, bicycle, vegetarian, ottawa, gluten-free, vegan, cookies, squares, farmers market, bike, local, baked goods, delicious, food, order, chocolate chip, date square, glebe, trish ">
-<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="shortcut icon" href="images/favicon.ico"/>
 <meta name="author" content="Jackpine">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="320">
@@ -31,7 +32,8 @@
     </header>
     <footer>
     <div class="header slide" >
-        <h3 >Delicious vegan &amp; gluten free baked goodies, delivered by bicycle.</h3>
+        <h3>Delicious vegan &amp; gluten free baked goodies, delivered by bicycle.</h3>
+        <p>Read the full story</p> 
     </div>
     <div class="content" id="container">
 
