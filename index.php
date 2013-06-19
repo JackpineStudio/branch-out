@@ -14,7 +14,6 @@
 
 <meta charset="UTF-8">
 
-<title>Branch Out Bakery</title>
 </head>
 
 <body>
