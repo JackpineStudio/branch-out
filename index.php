@@ -70,7 +70,7 @@
                             <input type="submit" value="Send an order" name="submit" id="submit" class="button" >
                         </fieldset>
                     </form>
-                    <?
+                    <?php
                         } else {
                             define('BR', '<br />');
 
