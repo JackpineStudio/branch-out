@@ -7,6 +7,9 @@
 <meta name="keywords"  content="Branch out bakery, branchoutbakery, bicycle, vegetarian, ottawa, gluten-free, vegan, cookies, squares, farmers market, bike, local, baked goods, delicious, food, order, chocolate chip, date square, glebe, trish ">
 <link rel="shortcut icon" href="favicon.ico"/>
 <meta name="author" content="Jackpine">
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="320">
+<meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
 
 <meta charset="UTF-8">
 
