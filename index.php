@@ -20,9 +20,9 @@
             <h1>Branch Out Bakery</h1>
             <div class="logo"><img width="300" src="images/branch-out-logo.png" alt="Branch Out Logo"></div>
             <div class="social">
-                <a href="https://twitter.com/BranchOutBakery"><img src="images/twitter.png"></a> 
-                <a href="https://www.facebook.com/BranchOutBakery?fref=ts"><img src="images/facebook.png"></a> 
-                <a href="mailto:branchoutbakery@gmail.com"><img src="images/email.png"></a>
+                <a href="https://twitter.com/BranchOutBakery" target="_blank"><img src="images/twitter.png"></a> 
+                <a href="https://www.facebook.com/BranchOutBakery?fref=ts" target="_blank"><img src="images/facebook.png"></a> 
+                <a href="mailto:branchoutbakery@gmail.com" target="_blank"><img src="images/email.png"></a>
             </div>
         </div>
     </header>
