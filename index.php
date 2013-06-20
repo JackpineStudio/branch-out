@@ -32,8 +32,8 @@
     <footer>
     <div class="header slide" >
         <h3>Delicious vegan &amp; gluten free baked goodies, delivered by bicycle.</h3>
-        <p>Read the full story</p> 
-    </div>
+<!--         <p>Read the full story</p> 
+ -->    </div>
     <div class="content" id="container">
 
         <h2>Order</h2>
